@@ -1,6 +1,9 @@
 .ContestPreview .contest-name {
   padding: 0.5em; }
 
+.ContestPreview .card-content {
+  position: relative; }
+
 .link {
   cursor: pointer; }
 
@@ -19,8 +22,12 @@
   flex-wrap: wrap; }
 
 .checkbox {
-  height: 100px; }
+  position: absolute;
+  top: 30px;
+  right: 10px; }
 
-[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-  opacity: 1;
-  pointer-events: auto; }
+[type="checkbox"].filled-in:not(:checked) + span:not(.lever):after {
+  border: 2px solid #fff; }
+
+.disabled.btn-small, .btn-small.disabled {
+  color: #546e7a !important; }

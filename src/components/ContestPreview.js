@@ -51,7 +51,8 @@ console.log(this.state.checked);
 					<form>
 					<p>
 					<label>
-						<input id={this.props.number} type="checkbox" onChange={this.handleChecked} /> 
+						<input id={this.props.number} type="checkbox" className="filled-in" onChange={this.handleChecked} />
+						<span></span>
 					</label>
 					</p>
 					</form>

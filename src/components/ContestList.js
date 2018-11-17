@@ -7,7 +7,7 @@ import ContestPreview from './ContestPreview';
 const ContestList = ({ contests, onContestClick, distinct, checked, ccc, setState }) => (
 
 		<div className="ContestList">
-			<div className="col s9 row">
+			<div className="col s7 m9 row">
 				{Object.keys(contests).map(index =>
 						/* 
 						everytime we display a list of things dynamically,
@@ -32,8 +32,8 @@ const ContestList = ({ contests, onContestClick, distinct, checked, ccc, setStat
 				}
 
 			</div>
-			<div className="col s3">
-				<h1>Distinct Ingredients</h1>
+			<div className="col s5 m3">
+				<h3>Distinct Ingredients</h3>
 				{distinct}
 			</div>
 		</div>

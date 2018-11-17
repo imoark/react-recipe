@@ -22676,7 +22676,7 @@
 			{ className: 'ContestList' },
 			_react2.default.createElement(
 				'div',
-				{ className: 'col s9 row' },
+				{ className: 'col s7 m9 row' },
 				Object.keys(contests).map(function (index) {
 					return (
 						/* 
@@ -22702,9 +22702,9 @@
 			),
 			_react2.default.createElement(
 				'div',
-				{ className: 'col s3' },
+				{ className: 'col s5 m3' },
 				_react2.default.createElement(
-					'h1',
+					'h3',
 					null,
 					'Distinct Ingredients'
 				),
@@ -22837,7 +22837,8 @@
 										_react2.default.createElement(
 											'label',
 											null,
-											_react2.default.createElement('input', { id: this.props.number, type: 'checkbox', onChange: this.handleChecked })
+											_react2.default.createElement('input', { id: this.props.number, type: 'checkbox', className: 'filled-in', onChange: this.handleChecked }),
+											_react2.default.createElement('span', null)
 										)
 									)
 								)
