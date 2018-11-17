@@ -60,6 +60,9 @@ Now, you can open up your preferred Internet Browser, and type the url [http://l
 
 The micro frontend application should be up and running on your browser now. 
 
+## How To Use the Application
+
+Simply, click the checkbox of the (MULTIPLE) recipe that you wanna cook, and it will display the list of the distinct ingredients that you will need to buy in the groceries store, and it is already alphabetically ordered as well. 
 
 ## Built With
 
@@ -74,7 +77,7 @@ The micro frontend application should be up and running on your browser now.
 
 ## Authors
 
-* **Mario Kurniawan** - *Initial work* - [imoark](https://github.com/imoark)
+* **Mario** - *Initial work* - [imoark](https://github.com/imoark)
 
 ## License
 
