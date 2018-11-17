@@ -21,11 +21,17 @@ Node.js v11.2.0
 npm 6.4.1
 ```
 
+You will also need a copy/clone of this repository. So, open your git BASH, or any of your terminal that has git in it, and run
+
+```
+git clone https://github.com/imoark/react-recipe.git
+```
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-On your terminal, `cd` (change directory) to the project's folder location, and run
+On your terminal, `cd` (change directory) to the project's folder location ( /react-recipe ), and run
 
 ```
 npm install
