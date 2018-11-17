@@ -1,4 +1,4 @@
-.ContestPreview {
+.RecipePreview {
 
   .contest-name {
     padding: 0.5em;
@@ -36,13 +36,7 @@
   right: 10px;
 }
 
-// [type="checkbox"]:not(:checked), [type="checkbox"]:checked{
-//   opacity: 1;
-//   pointer-events: auto;
-// }
-
 [type="checkbox"].filled-in:not(:checked)+span:not(.lever):after{
-  // background-color: #fff;
   border: 2px solid #fff;
 }
 

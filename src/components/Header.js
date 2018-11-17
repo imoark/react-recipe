@@ -13,5 +13,4 @@ Header.propTypes = {
 	message: React.PropTypes.string
 };
 
-/* For other modules to use the header module, we need to export it.*/
 export default Header;
