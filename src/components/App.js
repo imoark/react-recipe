@@ -34,7 +34,7 @@ class App extends React.Component {
 				allIngredients.push(_this.props.initialContests[index].ingredients);
 		});
 
-		allIngredients = allIngredients.flat();
+		allIngredients = [].concat(...allIngredients);
 		allIngredients = arrayUniq(allIngredients);
 		allIngredients.sort();
 
